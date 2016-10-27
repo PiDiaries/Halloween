@@ -47,7 +47,7 @@ def read_temp():
 
 
 while True:
-    if ldr.value <0.05:
+        ldr.wait_for_dark()
         print("Ready")
         pir.wait_for_motion()
         print("Motion Detected")
