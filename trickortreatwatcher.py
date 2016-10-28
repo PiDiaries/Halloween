@@ -5,18 +5,6 @@ import os
 import glob
 import sys
 from twython import Twython
-CONSUMER_KEY = ' ***Your info *** '
-CONSUMER_SECRET = ' ***Your info *** '
-ACCESS_KEY = ' ***Your info *** '
-ACCESS_SECRET = ' ***Your info *** '
-
-from gpiozero import  LED, MotionSensor, PWMLED, LightSensor
-import time
-from datetime import datetime
-import os
-import glob
-import sys
-from twython import Twython
 CONSUMER_KEY = ' ***Your Info *** '
 CONSUMER_SECRET = '***Your Info ***'
 ACCESS_KEY = '***Your Info ***'
